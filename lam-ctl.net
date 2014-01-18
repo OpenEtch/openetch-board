@@ -1,0 +1,677 @@
+# EESchema Netlist Version 1.1 created  Sat 18 Jan 2014 03:14:27 PM MSK
+(
+ ( /52DA5D08 $noname  P4 CONN_PROG {Lib=CONN_5}
+  (    1 /MOSI )
+  (    2 /MISO )
+  (    3 /SCK )
+  (    4 /RESET )
+  (    5 GND )
+ )
+ ( /52DA4F2D $noname  P3 HEATER3 {Lib=CONN_2}
+  (    1 /relay3/RELAY_C )
+  (    2 /relay3/RELAY_A )
+ )
+ ( /52DA4F21 $noname  P2 HEATER2 {Lib=CONN_2}
+  (    1 /relay2/RELAY_C )
+  (    2 /relay2/RELAY_A )
+ )
+ ( /52D2ADA1 $noname  C7 10uF {Lib=C}
+  (    1 N-000046 )
+  (    2 GND )
+ )
+ ( /52D2AD9F $noname  C6 10uF {Lib=C}
+  (    1 N-000037 )
+  (    2 GND )
+ )
+ ( /52D2AD9C $noname  C5 10uF {Lib=C}
+  (    1 N-000047 )
+  (    2 GND )
+ )
+ ( /50C36FAA $noname  C1 0.1 {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /50C36579 $noname  P1 HEATER1 {Lib=CONN_2}
+  (    1 /relay1/RELAY_C )
+  (    2 /relay1/RELAY_A )
+ )
+ ( /50C364C4 $noname  D3 LED {Lib=LED}
+  (    1 /L2 )
+  (    2 N-000002 )
+ )
+ ( /50C364C3 $noname  R3 220 {Lib=R}
+  (    1 N-000002 )
+  (    2 GND )
+ )
+ ( /50C364C0 $noname  R4 220 {Lib=R}
+  (    1 N-000009 )
+  (    2 GND )
+ )
+ ( /50C364BF $noname  D4 LED {Lib=LED}
+  (    1 /L3 )
+  (    2 N-000009 )
+ )
+ ( /50C364BC $noname  D2 LED {Lib=LED}
+  (    1 /L1 )
+  (    2 N-000007 )
+ )
+ ( /50C364BB $noname  R2 220 {Lib=R}
+  (    1 N-000007 )
+  (    2 GND )
+ )
+ ( /50C362A5 $noname  R1 220 {Lib=R}
+  (    1 N-000005 )
+  (    2 GND )
+ )
+ ( /50C362A2 $noname  D1 LED {Lib=LED}
+  (    1 /L0 )
+  (    2 N-000005 )
+ )
+ ( /50C36218 miniusb  X1 USB-MB-S {Lib=USB-MB-S}
+  (   D+ /Sheet50C361BF/DP )
+  (   D- /Sheet50C361BF/DM )
+  (  GND GND )
+  (   ID ? )
+  ( VBUS VCC )
+ )
+ ( /50C36126 $noname  R8 120 {Lib=R}
+  (    1 /T2 )
+  (    2 N-000046 )
+ )
+ ( /50C36121 $noname  R6 120 {Lib=R}
+  (    1 /T1 )
+  (    2 N-000037 )
+ )
+ ( /50C3611C $noname  R7 120 {Lib=R}
+  (    1 /T0 )
+  (    2 N-000047 )
+ )
+ ( /50C36092 $noname  R11 4k7 {Lib=R}
+  (    1 N-000046 )
+  (    2 VCC )
+ )
+ ( /50C3608F $noname  R10 4k7 {Lib=R}
+  (    1 N-000037 )
+  (    2 VCC )
+ )
+ ( /50C3608B $noname  R9 4k7 {Lib=R}
+  (    1 N-000047 )
+  (    2 VCC )
+ )
+ ( /50C3605A $noname  P5 CONN_T {Lib=CONN_4}
+  (    1 GND )
+  (    2 N-000047 )
+  (    3 N-000037 )
+  (    4 N-000046 )
+ )
+ ( /50C350AD $noname  R5 R {Lib=R}
+  (    1 VCC )
+  (    2 /RESET )
+ )
+ ( /50C35066 $noname  C4 27pF {Lib=C}
+  (    1 N-000019 )
+  (    2 GND )
+ )
+ ( /50C3505F $noname  C2 27pF {Lib=C}
+  (    1 N-000020 )
+  (    2 GND )
+ )
+ ( /50C35048 $noname  C3 0.1 {Lib=C}
+  (    1 GND )
+  (    2 N-000021 )
+ )
+ ( /50C35006 $noname  X2 12M {Lib=CRYSTAL}
+  (    1 N-000020 )
+  (    2 N-000019 )
+ )
+ ( /50C34FEB TQFP32  IC1 ATMEGA8-AI {Lib=ATMEGA8-AI}
+  (    1 /Sheet50C361BF/MCU_DP )
+  (    2 /L0 )
+  (    3 GND )
+  (    4 VCC )
+  (    5 GND )
+  (    6 VCC )
+  (    7 N-000020 )
+  (    8 N-000019 )
+  (    9 /relay3/~ON )
+  (   10 /relay2/~ON )
+  (   11 /relay1/~ON )
+  (   12 /L1 )
+  (   13 /L2 )
+  (   14 /L3 )
+  (   15 /MOSI )
+  (   16 /MISO )
+  (   17 /SCK )
+  (   18 VCC )
+  (   19 ? )
+  (   20 N-000021 )
+  (   21 GND )
+  (   22 ? )
+  (   23 /T0 )
+  (   24 /T1 )
+  (   25 /T2 )
+  (   26 ? )
+  (   27 ? )
+  (   28 ? )
+  (   29 /RESET )
+  (   30 ? )
+  (   31 ? )
+  (   32 /Sheet50C361BF/MCU_INT )
+ )
+ ( /52DA4F2B/4FB937AA $noname  RELAY1 SONGLE_RELAY {Lib=SONGLE_RELAY}
+  (    1 ? )
+  (    2 /relay3/RELAY_A )
+  (    3 /relay3/RELAY_C )
+  (    4 N-000053 )
+  (    5 GND )
+ )
+ ( /52DA4F2B/4FB937A9 $noname  Q1 PNP {Lib=PNP}
+  (    1 VCC )
+  (    2 N-000052 )
+  (    3 N-000053 )
+ )
+ ( /52DA4F2B/4FB937A8 $noname  D5 DIODE {Lib=DIODE}
+  (    1 GND )
+  (    2 N-000053 )
+ )
+ ( /52DA4F2B/4FB937A4 $noname  R12 10k {Lib=R}
+  (    1 N-000052 )
+  (    2 /relay3/~ON )
+ )
+ ( /52DA4F2B/4FB937A3 $noname  R13 47k {Lib=R}
+  (    1 VCC )
+  (    2 N-000052 )
+ )
+ ( /52DA4F23/4FB937AA $noname  RELAY2 SONGLE_RELAY {Lib=SONGLE_RELAY}
+  (    1 ? )
+  (    2 /relay2/RELAY_A )
+  (    3 /relay2/RELAY_C )
+  (    4 N-000050 )
+  (    5 GND )
+ )
+ ( /52DA4F23/4FB937A9 $noname  Q2 PNP {Lib=PNP}
+  (    1 VCC )
+  (    2 N-000051 )
+  (    3 N-000050 )
+ )
+ ( /52DA4F23/4FB937A8 $noname  D6 DIODE {Lib=DIODE}
+  (    1 GND )
+  (    2 N-000050 )
+ )
+ ( /52DA4F23/4FB937A4 $noname  R14 10k {Lib=R}
+  (    1 N-000051 )
+  (    2 /relay2/~ON )
+ )
+ ( /52DA4F23/4FB937A3 $noname  R15 47k {Lib=R}
+  (    1 VCC )
+  (    2 N-000051 )
+ )
+ ( /50C36536/4FB937AA $noname  RELAY3 SONGLE_RELAY {Lib=SONGLE_RELAY}
+  (    1 ? )
+  (    2 /relay1/RELAY_A )
+  (    3 /relay1/RELAY_C )
+  (    4 N-000048 )
+  (    5 GND )
+ )
+ ( /50C36536/4FB937A9 $noname  Q3 PNP {Lib=PNP}
+  (    1 VCC )
+  (    2 N-000049 )
+  (    3 N-000048 )
+ )
+ ( /50C36536/4FB937A8 $noname  D7 DIODE {Lib=DIODE}
+  (    1 GND )
+  (    2 N-000048 )
+ )
+ ( /50C36536/4FB937A4 $noname  R16 10k {Lib=R}
+  (    1 N-000049 )
+  (    2 /relay1/~ON )
+ )
+ ( /50C36536/4FB937A3 $noname  R17 47k {Lib=R}
+  (    1 VCC )
+  (    2 N-000049 )
+ )
+ ( /50C361C0/4FC0F903 $noname  R18 1k5 {Lib=R}
+  (    1 VCC )
+  (    2 /Sheet50C361BF/MCU_INT )
+ )
+ ( /50C361C0/4FC0F8A2 $noname  R19 68 {Lib=R}
+  (    1 /Sheet50C361BF/MCU_INT )
+  (    2 /Sheet50C361BF/DM )
+ )
+ ( /50C361C0/4FC0F89B $noname  R20 68 {Lib=R}
+  (    1 /Sheet50C361BF/MCU_DP )
+  (    2 /Sheet50C361BF/DP )
+ )
+ ( /50C361C0/4FC0F832 $noname  D9 3v6 {Lib=ZENER}
+  (    1 GND )
+  (    2 /Sheet50C361BF/DP )
+ )
+ ( /50C361C0/4FC0F82B $noname  D8 3v6 {Lib=ZENER}
+  (    1 GND )
+  (    2 /Sheet50C361BF/DM )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component IC1
+ TQFP32
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D6
+ D?
+ S*
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D7
+ D?
+ S*
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D9
+ D?
+ SO*
+ SM*
+$endlist
+$component D8
+ D?
+ SO*
+ SM*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ C2 2
+ RELAY2 5
+ D6 1
+ C3 1
+ IC1 21
+ P4 5
+ C1 2
+ IC1 3
+ IC1 5
+ P5 1
+ D7 1
+ RELAY3 5
+ D8 1
+ X1 GND
+ D9 1
+ C4 2
+ C7 2
+ C6 2
+ RELAY1 5
+ C5 2
+ R2 2
+ R1 2
+ R3 2
+ R4 2
+ D5 1
+Net 2 "" ""
+ D3 2
+ R3 1
+Net 3 "/L2" "L2"
+ D3 1
+ IC1 13
+Net 4 "/L3" "L3"
+ IC1 14
+ D4 1
+Net 5 "" ""
+ D1 2
+ R1 1
+Net 6 "/L0" "L0"
+ D1 1
+ IC1 2
+Net 7 "" ""
+ R2 1
+ D2 2
+Net 8 "/L1" "L1"
+ D2 1
+ IC1 12
+Net 9 "" ""
+ D4 2
+ R4 1
+Net 11 "/relay2/RELAY_A" "RELAY_A"
+ RELAY2 2
+ P2 2
+Net 12 "/relay2/RELAY_C" "RELAY_C"
+ RELAY2 3
+ P2 1
+Net 13 "/relay2/~ON" "~ON"
+ IC1 10
+ R14 2
+Net 14 "/relay1/RELAY_A" "RELAY_A"
+ P1 2
+ RELAY3 2
+Net 15 "/relay1/RELAY_C" "RELAY_C"
+ P1 1
+ RELAY3 3
+Net 18 "/relay1/~ON" "~ON"
+ R16 2
+ IC1 11
+Net 19 "" ""
+ C4 1
+ IC1 8
+ X2 2
+Net 20 "" ""
+ IC1 7
+ C2 1
+ X2 1
+Net 21 "" ""
+ C3 2
+ IC1 20
+Net 26 "/MISO" "MISO"
+ IC1 16
+ P4 2
+Net 27 "/T2" "T2"
+ IC1 25
+ R8 1
+Net 28 "/T1" "T1"
+ R6 1
+ IC1 24
+Net 29 "/T0" "T0"
+ R7 1
+ IC1 23
+Net 33 "/Sheet50C361BF/DM" "DM"
+ R19 2
+ D8 2
+ X1 D-
+Net 34 "/Sheet50C361BF/MCU_INT" "MCU_INT"
+ R19 1
+ R18 2
+ IC1 32
+Net 35 "/Sheet50C361BF/MCU_DP" "MCU_DP"
+ R20 1
+ IC1 1
+Net 36 "/Sheet50C361BF/DP" "DP"
+ D9 2
+ R20 2
+ X1 D+
+Net 37 "" ""
+ P5 3
+ R10 1
+ R6 2
+ C6 1
+Net 38 "/relay3/RELAY_A" "RELAY_A"
+ RELAY1 2
+ P3 2
+Net 39 "/relay3/~ON" "~ON"
+ IC1 9
+ R12 2
+Net 40 "/relay3/RELAY_C" "RELAY_C"
+ RELAY1 3
+ P3 1
+Net 42 "/MOSI" "MOSI"
+ IC1 15
+ P4 1
+Net 43 "/RESET" "RESET"
+ IC1 29
+ R5 2
+ P4 4
+Net 44 "/SCK" "SCK"
+ IC1 17
+ P4 3
+Net 45 "VCC" "VCC"
+ R11 2
+ Q2 1
+ IC1 18
+ X1 VBUS
+ R10 2
+ R9 2
+ R15 1
+ R5 1
+ Q1 1
+ R13 1
+ IC1 4
+ C1 1
+ IC1 6
+ R18 1
+ R17 1
+ Q3 1
+Net 46 "" ""
+ R11 1
+ P5 4
+ C7 1
+ R8 2
+Net 47 "" ""
+ R7 2
+ P5 2
+ R9 1
+ C5 1
+Net 48 "" ""
+ D7 2
+ RELAY3 4
+ Q3 3
+Net 49 "" ""
+ R17 2
+ Q3 2
+ R16 1
+Net 50 "" ""
+ D6 2
+ Q2 3
+ RELAY2 4
+Net 51 "" ""
+ Q2 2
+ R15 2
+ R14 1
+Net 52 "" ""
+ Q1 2
+ R13 2
+ R12 1
+Net 53 "" ""
+ RELAY1 4
+ Q1 3
+ D5 2
+}
+#End
